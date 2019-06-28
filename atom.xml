@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-14T11:57:18.320Z</updated>
+  <updated>2019-01-19T13:30:26.730Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MIT_单变量微积分_03</title>
+    <link href="http://yoursite.com/2019/01/19/MIT_%E5%8D%95%E5%8F%98%E9%87%8F%E5%BE%AE%E7%A7%AF%E5%88%86_03/"/>
+    <id>http://yoursite.com/2019/01/19/MIT_单变量微积分_03/</id>
+    <published>2019-01-18T16:00:00.000Z</published>
+    <updated>2019-01-19T13:30:26.730Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="第3课："><a href="#第3课：" class="headerlink" title="第3课："></a>第3课：</h3><ul><li>导数的加法法则：$(u + v)’ = u’ + v’$</li><li>导数的数乘法则：$(cu)’ = cu’$</li><li><strong>可去间断点</strong>：$$A: \;\;\;\;g(x) = \frac{sin(x)}{(x)},\;\;\;\;\lim_{x\rightarrow 0}\frac{sin(x)}{x}=1$$<br>$$B:\;\;\;\; h(x) = \frac{1-cos(x)}{x},\;\;\;\;\;\lim_{x\rightarrow 0}\frac{1-cos(x)}{x} = 0$$</li><li>$sin(x)’ = cos(x)$和$(cosx)’= -sin(x)$的证明：$$\frac{sin(x+\Delta x) - sin(x)}{\Delta x} = \frac{sinxcos\Delta x + cosxsin\Delta x - sinx}{\Delta x}\=sinx(\frac{cos \Delta x - 1}{\Delta x}) + cosx(\frac{sin \Delta x}{\Delta x})\=cosx \ ————————————–\ \frac{cos(x + \Delta x)- cos x}{\Delta x}=\frac{cosxcos\Delta x - sinx sin \Delta x - cosx}{\Delta x}\=cosx(\frac{cos \Delta x - 1}{\Delta x})- sinx(\frac{sin \Delta x}{\Delta x})\=-sinx$$</li><li><p>使用极限几何证明A、B。</p><ul><li><p>证明 A:<br><img src="http://oz3ijy2k5.bkt.clouddn.com/18-8-3/3317493.jpg" height="250" width="800"><br>$$\Delta x \rightarrow \Theta,\;\;\;\;\;\;\;\; \frac{弓弦}{弓} = \frac{2 sin \Theta}{2 \Theta} \rightarrow 1$$</p></li><li><p>注：<strong>极短的曲线可以看作直线</strong>。</p></li><li>证明B:<br><img src="http://oz3ijy2k5.bkt.clouddn.com/18-8-3/55379934.jpg" height="750" width="800"></li></ul></li></ul><p>$$\frac{1-cos\Theta}{\Theta}\rightarrow 0,\;\;\;\;\;\;\; 前提：这个圆还是单位圆。当红色部分很小时，即\Theta 很小的时候，等式便为0。$$</p><ul><li>证明：$\frac{\Delta y}{ \Delta \Theta} = cos\Theta$</li></ul><p><img src="http://oz3ijy2k5.bkt.clouddn.com/18-8-3/27528261.jpg" height="400" width="750"><br>$$OR \perp PQ ,QR \perp PR ,\Delta y = PR, PQ \approx \Delta \Theta,\frac{\Delta y}{ \Delta \Theta} = cos\Theta$$</p><hr><ul><li>$(\frac{u}{v})’ = \frac{(u’v - uv’)}{v^2}\;\;\;\;\;\;\;\;(v \neq 0)$</li><li>$(uv)’=(u’v+uv’)$</li></ul><p>$Pf:$<br>$$\Delta (uv) = u(x + \Delta x)v(x+\Delta x) - u(x)v(x)\=(u(x+\Delta x) - u(x))v(x+\Delta x)+u(x)(v(x+\Delta x)- v(x))\=\Delta uv(x+\Delta x)+u(x)\Delta v \ \frac {\Delta (uv)}{\Delta x}= \frac{\Delta u}{\Delta x}v(x + \Delta x) + \frac{u \Delta v}{ \Delta x}\由于\Delta x \rightarrow 0 所以，\ \frac{d(uv)}{dx}=\frac{du}{dx} \cdot v+ u \frac{dv}{dx}$$<br>$$\Delta (\frac{u}{x})=\frac{u + \Delta x}{v + \Delta v}-\frac{u}{v}\=\frac{uv+(\Delta u)v- uv - u\Delta v}{(v + \Delta v)v}\=\frac{(\Delta u)v- u \Delta v}{(v + \Delta v)v}\\frac{\Delta(\frac{u}{x})}{\Delta x}=\frac{\frac{\Delta u}{\Delta x}v-u\frac{\Delta v}{\Delta x}}{(v + \Delta v )v}\由于\Delta x \rightarrow 0,所以\\frac{d}{dx}(\frac{u}{v})=\frac{\frac{du}{dx} \cdot v - u \frac{dv}{dx}}{v \cdot v}$$</p>]]></content>
+    
+    <summary type="html">
+    
+      微积分
+    
+    </summary>
+    
+      <category term="数学笔记" scheme="http://yoursite.com/categories/%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="单变量微积分" scheme="http://yoursite.com/tags/%E5%8D%95%E5%8F%98%E9%87%8F%E5%BE%AE%E7%A7%AF%E5%88%86/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue与Element-ui的详细安装步骤</title>
